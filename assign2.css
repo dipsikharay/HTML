@@ -1,0 +1,39 @@
+*{
+    background-color: #9fad97;
+}
+.para-1{
+        text-align: left;
+}
+.para-2{
+        text-align: center;
+}
+.para-3{
+        text-align: right;
+}
+.para-4{
+    color: green;
+}
+.para-5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.para-6{
+font-size:50px;
+margin: 2px;
+}
+.para-7{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+}
+.img-1{
+display: block;
+margin-left: auto;
+margin-right: auto;
+height: 280px;
+width: 300px;
+}
+.img-2{
+display: block;
+margin-left: 45%;
+margin-top: 3%;
+}
