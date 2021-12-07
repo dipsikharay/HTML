@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+  }
+  h1{
+    font-size: 50px;
+  }
+  #part-1{
+    background-color: green;
+  }
+  #part-2{
+    background-color: blue;
+  }
+  #heading-1, #heading-3{
+    color: red;
+    font-style: italic;
+  }
+  #heading-2{
+    color: #675400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #heading-3{
+    background-color: black;
+    width: 400px;
+  }
+  .highlight{
+    color: white;
+    background-color:black;
+  }
+  .web1{
+    background-color:black;
+    color: green;
+  }
+  .web2{
+    font-size: 30px;
+    color: red;
+  }
+  
+  #python{
+    font-style: italic;
+  }
+
+
+
