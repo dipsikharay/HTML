@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <title>CSS var</title>
+    <style>
+        :root{ /*Global*/
+            --standard-font:Times, "Times New Roman";
+            --standard-height: 400px;
+            --standard-width: 400px;
+            --standard-color: blue;
+        }
+        .div1{
+            /*background-color:  brown;*/
+font-family: var(--standard-font);
+width: var(--standard-width);
+height: var(--standard-height);
+background-color:var(--standard-color);
+        }
+        .div2{
+            font-family: var(--standard-font);
+width: var(--standard-width);
+height: var(--standard-height);
+/*background-color:var(--standard-color);*/
+        }
+    </style>
+    
+    </head>
+    <body>
+        <div class="div1">
+            MY FAMILY
+        </div>
+        <div class="div2">
+
+        </div>
+    </body>
+    </html>
