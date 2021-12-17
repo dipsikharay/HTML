@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Javascript</title>
+    <!--<script>
+            document.getElementById('p1').innerHTML('<b>We are students</b>')
+    </script>!-->
+
+</head>
+<body>
+    <h1 id='heading-1'>Welcome All</h1>
+<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+     It has survived not only five centuries, but also the leap into electronic typesetting, 
+    remaining essentially unchanged.</p>
+
+    <p id='p1' >It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+<button onclick="changecontent()">Click next</button>
+<br>
+<br>
+<img id='img1' src='https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720__480.jpg' height="200" width="200">
+
+<script>
+    function changecontent(){
+    //document.getElementById('p1').innerHTML='<b>Madhurima is my bestie</b>';
+    //document.getElementById('p1').innerText='Madhurima is my naughty bestie';
+    document.getElementById('img1').src= 'https://www.techrepublic.com/a/hub/i/r/2018/07/09/1aba83d0-c289-4a6b-bfef-3dcc38dcf509/resize/1200x/c166876c2a82cd9a482cac6e20f9b60f/istock-849858410-1.jpg'
+    document.getElementById('img1').height= '350'
+    document.getElementById('img1').width= '280'
+    document.getElementById('p1').style.backgroundcolor= 'red';
+    }
+</script>
+</body>
+
+
+</html>

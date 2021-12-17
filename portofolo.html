@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+	<html>
+
+	<head>
+	<title>
+		Create a Portfolio Gallery
+		using HTML and CSS
+	</title>
+	
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1">
+		
+	<style>
+		/*{
+			background-color: rgb(231, 248, 231);
+		}
+		*/
+	
+		/* wildcard styling */
+		/** {
+			box-sizing: border-box;
+		
+		}
+		
+		/* padding for whole body */
+		body {
+			padding: 15px;
+			background-image: url('https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=');
+			
+		}
+		
+		/* styling body */
+		.container {
+			max-width: 1200px;
+			margin: auto;
+			text-align: center;
+			
+		}
+		div{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		h1 {
+			color: rgb(187, 223, 187);
+			
+		}
+		h3{
+			font-style: oblique;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			background-color: beige;
+			
+		}
+		h2{
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+			font-size: 30px;
+			text-decoration: underline;
+		}
+		
+		/* anchor tag decoration */
+		a {
+			text-decoration: none;
+			color: #5673C8;
+		}
+		
+		a:hover {
+			color: lightblue;
+		}
+			
+		.center {
+  			
+			border-radius: 50%;
+  			
+				}
+		
+		/* paragraph tga decoration */
+		p {
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 4;
+			overflow: hidden;
+	
+		}
+		
+		/* row and column decoration */
+		.row {
+			margin: 0px -18px;
+			padding: -5px;
+			
+			
+		}
+		
+		.row > .column {
+			padding: 6px;
+		}
+		
+		.column {
+			float: left;
+			width: 25%;
+			
+		}
+		
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		
+		/* content decoration */
+		.content {
+			background-color: white;
+			padding: 10px;
+			border: 1px solid gray;
+			
+		}
+		
+		/* window size 850 width set */
+		@media screen and (max-width: 850px) {
+			.column {
+				width: 50%;
+			}
+		}
+	
+		/* window size 400 width set */
+		@media screen and (max-width: 400px) {
+			.column {
+				width: 100%;
+			}
+		}
+		.call{
+    background-color:blueviolet;
+		}
+	
+	.buttons{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .buttons button:hover{
+    cursor: pointer;
+  }
+  </style>
+</head>
+
+<body>
+	
+	<!-- title and tag -->
+	<div class="container">
+		<strong><h1>I am Dipsikha </h1></strong>
+		<h3>A Computer Science Engineering Student</h3>
+		<hr>
+
+		<!-- Content of the body-->
+		<h2>HELLO</h2>
+		<div class="row">
+			<div class="column">
+				<div class="content">
+					<img src="a-1_RC.jpg"
+						alt="" style="width:100%" height="180px" class="center" >
+					<h3>
+						<a href="#">About Myself</a>
+					</h3>
+					
+
+<p> Computer-Science and Information Security student from KIIT University and placed in CTS.</p>
+
+
+				</div>
+			</div>
+		</div>
+			
+		<strong><h2>My Skills</h2></strong>	
+			<div class="row">
+			<div class="column">
+				<div class="content">
+					<img src=
+"https://3.imimg.com/data3/SM/MH/MY-13090449/android-course-500x500.png"
+						alt="" style="width:100%" height="180px">
+					<h3>
+						<a href="#">C and C++ programming</a>
+					</h3>
+					
+					
+
+<p>C and C++ have been used for diverse development purposes like game development, 
+	database system software, operating systems, GUI-based applications, and so much more.</p>
+
+
+				</div>
+			</div>
+			</div>
+			<div class="row">
+			<div class="column">
+				<div class="content">
+					<img src="https://devboattech.com/wp-content/uploads/2020/07/Web-development-designing-Anvar-Freelancer-1.png"
+						alt="" style="width:100%" height="180px">
+					<h3>
+						<a href="#">Web Development</a>
+					</h3>
+					
+					
+
+<p> Web development is the work involved in developing a website for the Internet or an intranet.
+	Web development  have a significantly higher job satisfaction rate.
+	</p>
+
+
+				</div>
+			</div>
+			</div>
+	<div class="row">
+			<div class="column">
+				<div class="content">
+					<img src="https://writejet.in/wp-content/uploads/2021/06/Netflix-And-Amazon-Prime-Video.jpg"
+						alt="" style="width:100%" height="180px">
+					<h3>
+						<a href="#">Netflix and Amazon Prime</a>
+					</h3>
+					
+					
+
+<p> Amazon Prime which offers many books, movies, music, and discounts.
+	 Overall, the consensus is that Netflix is the better option 
+	if you focus solely on streaming  .</p>
+
+
+				</div>
+			</div>
+	</div>
+	<div class="row">
+			<div class="column">
+				<div class="content">
+					
+					<h3>Get In Touch</h3>
+					<h4>If you love Netflix and code as much as I do. </h4>
+					
+					<p> Love Netflix and chill, also love to code? 
+						Let's talk about how awesome that is! 
+						We can code while we binge watch something!.</p>
+
+						<div class="buttons">
+							<button class="call">Contact with me</button>
+						</div>
+
+
+				</div>
+			</div>
+	</div>
+
+
+
+
+		</div>
+	
+	</body>
+</html>
+
