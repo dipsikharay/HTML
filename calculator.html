@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        *{
+            background-color: bisque;
+        }
+    </style>
+    <title>Calculator</title>
+    <script src="File.js">
+        
+    </script>
+    
+    </head>
+    <body>
+        <h1>Calculator</h1>
+        <table border="1">
+            <tr>
+                <td>First Number</td>
+                <td>
+                    <input type="text" id="First" value="" />
+                </td>
+            </tr>
+<tr>
+    <td>Second Number</td>
+    <td>
+        <input type="text" id="Second" value="" />
+    </td>
+</tr>
+<td>Operator</td>
+<td>
+    <select id="Operator">
+        <option value="Add">+</option>
+        <option value="Sub">-</option>
+        <option value="Mul">*</option>
+        <option value="Div">/</option>
+    </td>
+    </select>
+    <tr>
+    <td>Result</td>
+    
+        <td>
+            <input type="text" id="result" value="" />
+        </td>
+    </tr>
+        </table>
+        
+        <input type="submit" id="btn" name="btn" value="Submit"  onclick="calculate();" />
+        
+    </body>
+    </html>
