@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Strings</title>
+  <script>
+    let a = 'JavaScript + HTML + CSS'
+
+    console.log(a)
+
+     let c = 'JavaScript'
+    console.log(a === c)
+
+    let b = new String('JavaScript')
+    // let d = new String('JavaScript')
+     console.log(b.valueOf())
+
+    console.log(b)
+
+    console.log(a.length)
+
+    console.log(a.indexOf('HTML'))
+    console.log(a.lastIndexOf('HTML'))
+    console.log(a.toLowerCase())
+    console.log(a.toUpperCase())
+
+
+    let x='Contrary to popular belief'
+    console.log(x.includes('to'))
+    console.log(x.includes('dip'))
+    console.log(x.indexOf('dip'))
+    console.log(x.startsWith('C'))
+    console.log(x.endsWith('belief.'))
+
+    
+    
+    let z = "Javascript is fantastic, and is definitely a good programming language to start with.This is good!"
+    //let s= z;
+
+    //z = z.replace("is", "IS");
+    //console.log(z.indexOf("is"));
+
+    let p=z.match(/is/g)
+    console.log(p)
+let m='javascript'
+let n='c'
+console.log(m+''+n)
+console.log(m.concat(n))
+
+  </script>
+</head>
+<body>
+ <input type="text" placeholder="name">
+</body>
+</html>
+
+<!--
+  Note: Object have properties and methods (functions)
+  OBJECTS:
+  {
+    name: 'Sukanya'
+    batch: 11,
+    rollNo: 2,
+    changeBatch: function(batchNo){
+      this.batch = batchNo
+    }
+  }
+-->

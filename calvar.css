@@ -1,0 +1,25 @@
+body {
+    background: url("https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=");
+    background-color: #424242;
+    font-family: 'Verdana';font-size: 22px;
+   }
+
+
+   .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 1400px;
+   }
+
+   #container {
+    width: 300px;
+    padding: 8px 8px 20px 8px;
+    margin: 20px auto;
+    background-color:grey;
+   }
+   #display {
+    display: block;
+    margin: 15px auto;
+   }
