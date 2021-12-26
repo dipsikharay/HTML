@@ -15,10 +15,67 @@ a.push(9)
 console.log(a)
 a.pop(9)
 console.log(a)
-let b=['madhu','souvik','dipu']
+//let b=['madhu','souvik','dipu']
+//console.log(b)
+
+let b = ['Dipsikha', 'Madhurima', 23]
+ console.log(b)
+ console.log(b.length)
+ console.log(b[b.length-1])
+ b[b.length] = 'Souvik'
 console.log(b)
 
-let text = "Dipsikha Ray";
+b[5] = 'Anik'    // holes 
+console.log(b)
+
+b[0] = 'Debasish'
+console.log(b)
+
+ // Array Iteration
+    for(let i = 0; i < b.length ;i++){
+      b[i] = b[i] + 2
+     }
+     let c = b.shift()
+
+     console.log(c + ' was removed from the array')
+     console.log(b)
+
+     b.unshift('Sunanda')
+     b.unshift('debanshu')
+
+    console.log(b)
+
+//task1
+    let t = ['Dhanashree', 'Anirban', 23]
+
+     t.pop()             // 'Dhanashree', 'Anirban'
+     t.push(23)          // 'Dhanashree', 'Anirban', 23
+      t.unshift('Shyam')  // 'Shyam', 'Dhanashree', 'Anirban', 23
+     t.pop()             // 'Shyam', 'Dhanashree', 'Anirban'
+     t.shift()           // 'Dhanashree', 'Anirban'
+     t.shift()           // 'Anirban'
+     console.log(t)
+
+     let s = ['Dhanashree', 'Anirban', 23, 'Maneesh', 'Talib']
+     s.reverse()
+     console.log(s)
+
+ let m = ['Maneesh', 'Talib', 23, 'Prajakta']
+
+let d = ['Vidhi', 'Vikas', 'Suraj']
+
+ t = t.concat(m)
+
+console.log(m.concat(t, d))
+
+console.log(t.slice(1, 3))
+
+ delete t[0]  // Holes
+
+ console.log(t)
+
+
+
 //let result = text.substring(1, 4);
 //console.log(result)
 
@@ -37,7 +94,7 @@ let text = "Dipsikha Ray";
 //let result = text.slice(1, 4);
 //console.log(result)
 
-let result = text.slice(0, 1);
-console.log(result)
+//let result = text.slice(0, 1);
+//console.log(result)
       </script>
       </html>
