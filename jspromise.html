@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Promise</title>
+  <script>
+    /*
+    Promises:
+    4 states
+    - Pending
+    - Resolved
+    - Rejected
+    - Fulfilled
+
+    Way 1: --- pending ---- resolved --- fulfilled
+    Way 2: --- pending ---- rejected --- fulfilled    
+    */
+   let a=25
+   let b=15
+let promise=new Promise(function(resolve,reject){
+    if (a==b)
+    resolve("The a and b are equal")
+    else if (a>b)
+    resolve("The value of a is greater than b")
+    else
+    reject("The value of a is less than b")
+})
+//console.log(promise)
+//promise.then(function(){
+//console.log('This is resolved:)')
+//})
+promise.then(function(resolvedMessage){
+console.log('This is resolved',resolvedMessage)
+}).catch(function(rejectedMessage){
+console.log('This is not resolved',rejectedMessage)
+})
+
+  </script>
+</head>
+<body>
+  
+</body>
+</html>

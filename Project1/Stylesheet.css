@@ -1,0 +1,47 @@
+*{
+box-sizing : border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    height: 2px;
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    background-color: paleturquoise;
+    padding: 1rem;
+    width: 500px;
+    max-width: 80%;
+}
+
+.timer{
+    top:12em;
+    color: brown;
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.WrittenText{
+    margin-bottom: 1px;
+}
+
+.correct {
+    color: brown;
+  }
+
+
+.InputText{
+    background-color: blue;
+    margin: 2pt;
+    font-size: 2cm;
+    height: 50px;
+    width: 85%;
+    padding: 1rem 3rem;
+}
+.InputText:focus{
+border-color: brown;
+}
